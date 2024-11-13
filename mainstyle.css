@@ -1,0 +1,92 @@
+body {
+    padding-top: 70px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: left;
+
+
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    text-transform: uppercase;
+    /* color:aqua; */
+    color: cyan;
+    font-weight: bold;
+
+
+}
+
+.carousel-caption p {
+    margin: auto;
+    font-size: 24px;
+    width: 70%;
+    color: black;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: Dancing Script;
+}
+
+
+.card-body a:hover {
+    background-color: black;
+}
+
+
+
+.layout {
+    background-color: moccasin;
+}
+
+@media only screen and (max-width: 768px) {
+    #home .carousel-inner img {
+        height: 450px;
+        /* Adjust image height */
+    }
+
+    #carouselExampleCaptions .carousel-caption h5 {
+        font-size: 2rem;
+        /* Adjust the heading font size */
+    }
+
+    #carouselExampleCaptions .carousel-caption p {
+        font-size: 1.5rem;
+        /* Adjust the paragraph font size */
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    /* Slider Section */
+    #home .carousel-inner img {
+        height: 300px;
+        /* Adjust image height */
+    }
+
+    #home .carousel-caption h5 {
+        font-size: 20px;
+        /* Reduce text size */
+    }
+
+    #home .carousel-caption p {
+        font-size: 15px;
+        /* Adjust paragraph font size */
+    }
+
+
+}
